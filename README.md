@@ -1,7 +1,7 @@
-# Spring Boot Gradle 工程模板
+# SpringBoot 2.X Gradle工程模板 (历史版本,暂停维护)
 
 * 用于快速创建一个SpringBoot工程
-* [Github Home](https://github.com/shepherdviolet/spring-boot-template)
+* [Github Home](https://github.com/shepherdviolet/spring-boot-template-legacy2)
 
 ## 模块说明
 
@@ -13,7 +13,7 @@
 
 ## 内含一些示例程序
 
-* Spring及第三方组件的使用示例: [web/demo/src/main/java/com/github/shepherdviolet/webdemo/demo](https://github.com/shepherdviolet/spring-boot-template/tree/master/web/demo/src/main/java/com/github/shepherdviolet/webdemo/demo)
+* Spring及第三方组件的使用示例: [web/demo/src/main/java/com/github/shepherdviolet/webdemo/demo](https://github.com/shepherdviolet/spring-boot-template-legacy2/tree/master/web/demo/src/main/java/com/github/shepherdviolet/webdemo/demo)
 
 <br>
 <br>
@@ -27,7 +27,7 @@
 * 浏览器访问如下地址, 手动下载`sprintboot-startup.bat`脚本:
 
 ```text
-https://raw.githubusercontent.com/shepherdviolet/spring-boot-template/master/extra/quickstart/springboot-startup.bat
+https://raw.githubusercontent.com/shepherdviolet/spring-boot-template-legacy2/master/extra/quickstart/springboot-startup.bat
 ```
 
 * 执行下载来的脚本`sprintboot-startup.bat`, 输入新工程名称, 控制台输出如下:
@@ -35,7 +35,7 @@ https://raw.githubusercontent.com/shepherdviolet/spring-boot-template/master/ext
 ```text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Startup a SpringBoot Gradle Project
-1.Clone spring-boot-template from remote
+1.Clone spring-boot-template-legacy2 from remote
 2.Delete the original .git
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Enter new project name:foo
@@ -56,7 +56,7 @@ Read 'foo\README.md' to create sub-project automatically
 * 命令行执行如下命令, 其中`foo`为新工程名称, P.S. Windows环境用cmder也可以这么做
 
 ```text
-curl -L https://raw.githubusercontent.com/shepherdviolet/spring-boot-template/master/extra/quickstart/springboot-startup.sh | sh -s foo
+curl -L https://raw.githubusercontent.com/shepherdviolet/spring-boot-template-legacy2/master/extra/quickstart/springboot-startup.sh | sh -s foo
 ```
 
 * 输入新工程名称, 等待新工程创建完毕
@@ -64,7 +64,7 @@ curl -L https://raw.githubusercontent.com/shepherdviolet/spring-boot-template/ma
 
 ### 其他环境新建工程(手动)
 
-* 克隆: `git clone https://github.com/shepherdviolet/spring-boot-template.git foo`
+* 克隆: `git clone https://github.com/shepherdviolet/spring-boot-template-legacy2.git foo`
 * 删除新工程目录下的`.git`(删除原来模板工程的版本数据)
 * Done!
 
